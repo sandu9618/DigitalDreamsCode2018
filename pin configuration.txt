@@ -1,0 +1,59 @@
+wall following--------------------
+ultrasonic-->
+	left-echo (A0) trigger (A1)
+	right-echo(A4) trigger (A5)
+	front-echo(A2) trigger(A3)
+	left-side-echo(A15) trigger(A14)
+	right-side-echo(A8) trigger(A9)
+
+
+
+
+Line following----------------------------
+QTR-->
+	yellow-ground
+	vcc-orange
+	sensor pins-1(r.h.s.)(53)
+		(53-brown
+		51-black
+		49-white
+		47-gray
+		45-purple
+		43-yellow
+		41-orange
+		39-dark orange)
+	
+
+Motor--------------------------------
+motor drive-->
+	left-
+		pwm-9
+		(46,48)
+	right-
+		pwm-10
+	
+		(50,52)
+
+
+
+motor-->
+	left-
+		interrupt-21
+	right-
+		interrupt-20
+
+
+other----------------------
+color sensor
+	S0-4
+	s1-5
+	s2-6
+	s3-7
+	out-8 pwm
+
+LEd-----------------
+	g-A11
+	B-A12
+	R-A13
+
+	beep-A7
